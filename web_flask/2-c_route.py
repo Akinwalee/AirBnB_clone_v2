@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """A simple Flask application"""
 
 from flask import Flask
@@ -27,4 +27,4 @@ def display_c():
 
 if __name__ == "__main__":
     app.url_map.strict_slashes=False
-    app.run(host="0.0.0.0", port="5004")
+    app.run(host="0.0.0.0", port="5000")
